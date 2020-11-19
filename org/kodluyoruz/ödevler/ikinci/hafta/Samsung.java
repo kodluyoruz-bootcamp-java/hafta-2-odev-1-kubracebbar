@@ -2,7 +2,6 @@ package org.kodluyoruz.ödevler.ikinci.hafta;
 
 public class Samsung extends Telephones implements InterfaceSamsung {
 
-    final String keyboard = "tuşlu";
 
     public Samsung(String modelName, String IMEI, String versionNumber, double memory, double screen) {
         super(modelName, IMEI, versionNumber, memory, screen, new Oem("Tuşlu"));
